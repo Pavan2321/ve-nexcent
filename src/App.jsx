@@ -10,8 +10,8 @@ import MeetCustomers from "./components/MeetCustomers";
 import CaringMarketing from "./components/CaringMarketing";
 import GetDemo from "./components/GetDemo";
 import Footer from "./components/Footer";
-import ImageDetailsSection from "./components/imageDetailsSection";
-import sectionsData from "./configs/sectionsData";
+import UnseenPixelgrade from "./components/UnseenPixelgrade";
+import DesignLike from "./components/DesignLike";
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
       <HeroSection />
       <OurClients />
       <ManageSystem />
-      <ImageDetailsSection data={sectionsData.Pixelgrade} />
+      <UnseenPixelgrade />
       <HelpingItself />
-      <ImageDetailsSection data={sectionsData.designLike} />
+      <DesignLike />
       <MeetCustomers />
       <CaringMarketing />
       <GetDemo />
