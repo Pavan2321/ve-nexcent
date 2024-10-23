@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  li {
+    margin-bottom: 0.5rem;
+    color: #F5F7FA;
+  }
+}
+
+.primary-text {
+  color: var(--ve-primary);
+}
+
+.white-text {
+  color: var(--ve-white);
+}
+
+.d-gray-text {
+  color: var(--ve-d-gray);
+}
+
+.black-text {
+  color: var(--ve-black);
+}
+.black-bg {
+  background-color: var(--ve-black);
+}
+
+.bg-silver {
+  background-color: var(--ve-silver);
+}
+.silver-text {
+  color: var(--ve-silver);
+}
+
+.bg-green {
+  background-color: var(--ve-shade-1);
+}
+
+.ve-radius {
+  border-radius: 4px !important;
+}
+
+.ve-gray {
+  color: var(--ve-gray);
+}
+
+.card-shadow {
+  box-shadow: 0px 2px 4px 0px #abbed133;
+}
+.card-shadow-2 {
+  box-shadow: 0px 8px 16px 0px #abbed166;
+}
+
+.ve-card {
+  width: 299px;
+  height: 100%;
+  width: Fixed (299px) px;
+  padding: 24px 32px 24px 32px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+
+// Caring Marketing Image Container
+.caringMarketingImageContainer {
+  position: relative;
+}
+
+.ve-card-2 {
+  position: absolute;
+  bottom: -100px;
+  right: 25px;
+  width: 317px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  height: 176px;
+}
+
+// get Demo Section
+.getDemoSection {
+  margin-top: 8rem !important;
+}
+
+// footer section
+.footer-input-container{
+  position: relative;
+  width: 250px;
+}
+.footer-input{
+  width: 100%;
+  background-color: var(--ve-d-gray);
+  padding: .5rem;
+  border-radius: 8px;
+  border: none;
+  color: #D9DBE1;
+  &::placeholder{
+    color: #D9DBE1;
+    font-size: var(--ve-fs-7);
+  }
+}
+
+.footer-icons{
+  width: 40px;
+  height: 40px;
+  background-color: #abbed133;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-icon{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
