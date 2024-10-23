@@ -9,7 +9,7 @@ const OurClients = () => {
         <p className="body-text-1 ve-gray">
           We have been working with some Fortune 500+ clients
         </p>
-        <div className="d-flex justify-content-between pt-4">
+        <div className="d-flex justify-content-between pt-4 overflow-scroll">
           {ourClientImages.map((data) => (
             <img src={data.src} alt={data.alt} key={data.alt} />
           ))}
