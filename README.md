@@ -20,10 +20,10 @@
     - Imports and combines all components.
   - **main.jsx**
     - Entry file to run the website.
-  - **index.html**
-    - The single HTML file for the entire webpage.
-  - **vite.config**
-    - Configuration file for Vite.
+- **index.html**
+  - The single HTML file for the entire webpage.
+- **vite.config**
+  - Configuration file for Vite.
 
 # Commands
 
@@ -33,3 +33,7 @@
   - Run the project on localhost for development.
 - `npm run build`
   - build the project for deployment.
+
+# Deployed Link
+
+- [View the deployed website](https://ve-nexcent.netlify.app/)
