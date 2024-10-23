@@ -6,7 +6,7 @@ const HelpingItself = () => {
     <section className="py-5 bg-silver">
       <div className="container ">
         <div className="row d-flex align-items-center px-5">
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <h4 className="heading-2 d-gray-text">
               Helping a local <br />
               <span className="primary-text">business reinvent itself</span>
@@ -15,7 +15,7 @@ const HelpingItself = () => {
               We reached here with our hard work and dedication
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <div className="d-flex gap-5 flex-wrap ps-5">
               {helpingItselfConfig.map((data) => (
                 <div key={data.desc} className="d-flex gap-3">

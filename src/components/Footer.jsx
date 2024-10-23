@@ -6,12 +6,12 @@ const Footer = () => {
     <section className="black-bg py-5">
       <div className="container">
         <div className="row white-text">
-          <div className="col-5">
+          <div className="col-12 col-md-5 text-md-start text-center">
             <img src={whiteLogo} alt="whiteLogo" className="mb-4" />
             <p className="silver-text body-text-2">
               Copyright © 2020 Nexcent ltd. <br /> All rights reserved
             </p>
-            <div className="d-flex gap-2 mt-4">
+            <div className="d-flex justify-content-center justify-content-md-start gap-2 mt-4 mb-3">
               {footerIconsConfig.map((data) => (
                 <div className="footer-icons">
                   <img src={data.src} alt={data.alt} />
@@ -19,7 +19,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="col-7 d-flex justify-content-between">
+          <div className="col-12 col-md-7 d-flex justify-content-between flex-wrap">
             <div>
               <h4 className="heading-4">Company</h4>
               <ul className="body-text-2">

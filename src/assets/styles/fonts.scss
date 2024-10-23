@@ -6,6 +6,11 @@
   font-weight: 600;
   font-size: var(--ve-fs-1);
   line-height: var(--ve-lh-1);
+
+  @media (max-width: 769px) {
+    font-size: var(--ve-fs-2);
+    line-height: var(--ve-lh-2);
+  }
 }
 
 .heading-2 {
@@ -28,7 +33,6 @@
   font-size: var(--ve-fs-4);
   line-height: var(--ve-lh-4);
 }
-
 
 // body texts
 .body-text-1 {

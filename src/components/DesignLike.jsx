@@ -5,10 +5,10 @@ const DesignLike = () => {
   return (
     <section className="container py-5">
       <div className="row align-items-center">
-        <div className="col-5">
-          <img src={pana} alt="pana" />
+        <div className="col-12 col-lg-5">
+          <img src={pana} alt="pana" className="w-100"/>
         </div>
-        <div className="col-6 pe-5">
+        <div className="col-12 col-lg-6 pe-5 pt-3">
           <h1 className="heading-2 d-gray-text pe-5">
             How to design your site footer like we did
           </h1>

@@ -12,11 +12,11 @@ const CaringMarketing = () => {
           how our community are increasing their membership income and lot's
           more.​
         </p>
-        <div className="d-flex justify-content-between pt-4">
+        <div className="d-flex gap-5 justify-content-center pt-4 flex-wrap">
           {caringMarketingConfig.map((data) => (
             <div key={data.title} className="caringMarketingImageContainer ">
               <img src={data.src} alt={data.title} />
-              <div className="ve-card-2 border-0 card-shadow-2 bg-silver">
+              <div className="ve-card-2 border-0 card-shadow-2 bg-silver d-none d-lg-block">
                 <h4 className="heading-4 ve-gray pt-3">{data.title}</h4>
                 <button className="btn primary-text heading-4">{data.btn} &rarr;</button>
               </div>

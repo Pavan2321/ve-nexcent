@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="bg-silver">
       <div className="container py-5 px-5 mx-auto">
         <div className="row justify-content-center align-items-center">
-          <div className="col-8 px-5">
+          <div className="col-12 col-lg-8 px-5">
             <h1 className="heading-1">
               Lessons and insights{" "}
               <span className="primary-text">from 8 years</span>
@@ -19,8 +19,10 @@ const HeroSection = () => {
               Register
             </div>
           </div>
-          <div className="col-4">
-            <img src={heroImage} alt="Hero Image" />
+          <div className="col-12 col-lg-4">
+            <div className="hero-image">
+              <img src={heroImage} alt="Hero Image" />
+            </div>
           </div>
         </div>
       </div>

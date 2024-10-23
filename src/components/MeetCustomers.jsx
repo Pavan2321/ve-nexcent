@@ -7,10 +7,10 @@ const MeetCustomers = () => {
     <section className="bg-silver py-5">
       <div className="container px-5">
         <div className="row align-items-center">
-          <div className="col-5">
-            <img src={image_9} alt="image_9" />
+          <div className="col-12 col-lg-5">
+            <img src={image_9} alt="image_9" className="w-100"/>
           </div>
-          <div className="col-7 pe-5">
+          <div className="col-12 col-lg-7 pe-5">
             <p className="body-text-2 ve-gray">
               Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
               lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
@@ -28,10 +28,10 @@ const MeetCustomers = () => {
             <p className="body-text-2 ve-gray">
               British Dragon Boat Racing Association
             </p>
-            <div className="d-flex justify-content-between align-items-center">
+            <div className="d-flex justify-content-between align-items-center flex-wrap">
               {iconsConfig.map((data) => (
                 <div>
-                  <img src={data.src} alt={data.alt} key={data.alt} />
+                  <img src={data.src} alt={data.alt} key={data.alt}/>
                 </div>
               ))}
               <button className="btn primary-text py-2 my-3 heading-4">

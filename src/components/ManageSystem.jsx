@@ -9,7 +9,7 @@ const ManageSystem = () => {
           Manage your entire community in a single system
         </h1>
         <p className="body-text-1 ve-gray">Who is Nextcent suitable for?</p>
-        <div className="d-flex justify-content-between pt-4">
+        <div className="d-flex flex-wrap  justify-content-center gap-5 pt-4">
           {manageSystemConfig.map((data) => (
             <div key={data.title} className="card-shadow ve-card pb-3">
               <img src={data.src} alt={data.title} />
