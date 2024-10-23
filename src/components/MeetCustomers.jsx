@@ -5,12 +5,12 @@ import iconsConfig from "../configs/icons";
 const MeetCustomers = () => {
   return (
     <section className="bg-silver py-5">
-      <div className="container px-5">
+      <div className="container px-3 px-lg-5">
         <div className="row align-items-center">
           <div className="col-12 col-lg-5">
             <img src={image_9} alt="image_9" className="w-100"/>
           </div>
-          <div className="col-12 col-lg-7 pe-5">
+          <div className="col-12 col-lg-7 pe-3 pe-lg-5">
             <p className="body-text-2 ve-gray">
               Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
               lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
@@ -34,7 +34,7 @@ const MeetCustomers = () => {
                   <img src={data.src} alt={data.alt} key={data.alt}/>
                 </div>
               ))}
-              <button className="btn primary-text py-2 my-3 heading-4">
+              <button className="btn primary-text px-0 py-2 my-3 heading-4">
                 Meet all customers &rarr;
               </button>
             </div>

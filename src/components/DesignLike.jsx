@@ -8,8 +8,8 @@ const DesignLike = () => {
         <div className="col-12 col-lg-5">
           <img src={pana} alt="pana" className="w-100"/>
         </div>
-        <div className="col-12 col-lg-6 pe-5 pt-3">
-          <h1 className="heading-2 d-gray-text pe-5">
+        <div className="col-12 col-lg-6 pe-3 pe-lg-5 pt-3">
+          <h1 className="heading-2 d-gray-text pe-3 pe-lg-5">
             How to design your site footer like we did
           </h1>
           <p className="body-text-2 ve-gray">

@@ -12,7 +12,7 @@ const UnseenPixelgrade = () => {
         </div>
         <div className="col-12 col-lg-6 pe-0 pe-lg-5">
           <div>
-            <h1 className="heading-2 d-gray-text pe-5">
+            <h1 className="heading-2 d-gray-text pe-2 pe-lg-5">
               The unseen of spending three years at Pixelgrade
             </h1>
             <p className="body-text-2 ve-gray">

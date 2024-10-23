@@ -4,9 +4,9 @@ import heroImage from "../assets/images/Illustration.png";
 const HeroSection = () => {
   return (
     <section className="bg-silver">
-      <div className="container py-5 px-5 mx-auto">
+      <div className="container px-3 py-5 px-md-5 mx-auto">
         <div className="row justify-content-center align-items-center">
-          <div className="col-12 col-lg-8 px-5">
+          <div className="col-12 col-lg-8 px-md-5">
             <h1 className="heading-1">
               Lessons and insights{" "}
               <span className="primary-text">from 8 years</span>

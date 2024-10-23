@@ -3,7 +3,7 @@ import manageSystemConfig from "../configs/manageSystem";
 
 const ManageSystem = () => {
   return (
-    <section className="py-5 text-center">
+    <section className="text-center">
       <div className="container">
         <h1 className="heading-2 d-gray-text">
           Manage your entire community in a single system

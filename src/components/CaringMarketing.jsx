@@ -6,7 +6,7 @@ const CaringMarketing = () => {
     <section className="py-5 text-center">
       <div className="container">
         <h1 className="heading-2 d-gray-text">Caring is the new marketing</h1>
-        <p className="body-text-1 ve-gray w-50 m-auto">
+        <p className="body-text-1 ve-gray w-75 m-auto">
           The Nexcent blog is the best place to read about the latest membership
           insights, trends and more. See who's joining the community, read about
           how our community are increasing their membership income and lot's
