@@ -1,7 +1,7 @@
-import icon_6 from "../assets/images/icon_6.png";
-import icon_5 from "../assets/images/icon_5.png";
-import icon_4 from "../assets/images/icon_4.png";
-import icon_3 from "../assets/images/icon_3.png";
+import icon_6 from "../assets/images/Icon_6.png";
+import icon_5 from "../assets/images/Icon_5.png";
+import icon_4 from "../assets/images/Icon_4.png";
+import icon_3 from "../assets/images/Icon_3.png";
 
 const helpingItselfConfig = [
   {
