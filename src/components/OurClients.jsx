@@ -1,5 +1,5 @@
 import React from "react";
-import ourClientImages from "../assets/configs/ourClients";
+import ourClientImages from "../configs/ourClients";
 
 const OurClients = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import manageSystemConfig from "../assets/configs/manageSystem";
+import manageSystemConfig from "../configs/manageSystem";
 
 const ManageSystem = () => {
   return (

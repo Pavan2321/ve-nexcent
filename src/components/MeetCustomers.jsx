@@ -1,6 +1,6 @@
 import React from "react";
 import image_9 from "../assets/images/image_9.png";
-import iconsConfig from "../assets/configs/icons";
+import iconsConfig from "../configs/icons";
 
 const MeetCustomers = () => {
   return (
@@ -30,7 +30,7 @@ const MeetCustomers = () => {
             </p>
             <div className="d-flex justify-content-between align-items-center flex-wrap">
               {iconsConfig.map((data) => (
-                <div>
+                <div key={data.alt}>
                   <img src={data.src} alt={data.alt} key={data.alt}/>
                 </div>
               ))}

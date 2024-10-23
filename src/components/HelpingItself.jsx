@@ -1,5 +1,5 @@
 import React from "react";
-import helpingItselfConfig from "../assets/configs/helpingItself";
+import helpingItselfConfig from "../configs/helpingItself";
 
 const HelpingItself = () => {
   return (

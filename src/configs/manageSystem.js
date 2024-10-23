@@ -1,6 +1,6 @@
-import icon from "../images/icon.png";
-import icon_1 from "../images/icon_1.png";
-import icon_2 from "../images/icon_2.png";
+import icon from "../assets/images/icon.png";
+import icon_1 from "../assets/images/icon_1.png";
+import icon_2 from "../assets/images/icon_2.png";
 const manageSystemConfig = [
   {
     src: icon,

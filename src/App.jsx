@@ -5,29 +5,29 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import OurClients from "./components/OurClients";
 import ManageSystem from "./components/ManageSystem";
-import UnseenPixelgrade from "./components/UnseenPixelgrade";
 import HelpingItself from "./components/HelpingItself";
-import DesignLike from "./components/designLike";
 import MeetCustomers from "./components/MeetCustomers";
 import CaringMarketing from "./components/CaringMarketing";
 import GetDemo from "./components/GetDemo";
 import Footer from "./components/Footer";
+import ImageDetailsSection from "./components/imageDetailsSection";
+import sectionsData from "./configs/sectionsData";
 
 function App() {
   return (
-    <>
+    <React.Fragment>
       <Navbar />
       <HeroSection />
       <OurClients />
       <ManageSystem />
-      <UnseenPixelgrade />
+      <ImageDetailsSection data={sectionsData.Pixelgrade} />
       <HelpingItself />
-      <DesignLike />
+      <ImageDetailsSection data={sectionsData.designLike} />
       <MeetCustomers />
       <CaringMarketing />
       <GetDemo />
       <Footer />
-    </>
+    </React.Fragment>
   );
 }
 

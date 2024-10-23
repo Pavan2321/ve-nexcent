@@ -1,10 +1,10 @@
-import logo from "../images/Logo.png";
-import logo_1 from "../images/Logo_1.png";
-import logo_2 from "../images/Logo_2.png";
-import logo_3 from "../images/Logo_3.png";
-import logo_4 from "../images/Logo_4.png";
-import logo_5 from "../images/Logo_5.png";
-import logo_6 from "../images/Logo_6.png";
+import logo from "../assets/images/Logo.png";
+import logo_1 from "../assets/images/Logo_1.png";
+import logo_2 from "../assets/images/Logo_2.png";
+import logo_3 from "../assets/images/Logo_3.png";
+import logo_4 from "../assets/images/Logo_4.png";
+import logo_5 from "../assets/images/Logo_5.png";
+import logo_6 from "../assets/images/Logo_6.png";
 
 const ourClientImages = [
   {

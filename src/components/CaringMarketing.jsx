@@ -1,5 +1,5 @@
 import React from "react";
-import caringMarketingConfig from "../assets/configs/caringMarking";
+import caringMarketingConfig from "../configs/caringMarking";
 
 const CaringMarketing = () => {
   return (

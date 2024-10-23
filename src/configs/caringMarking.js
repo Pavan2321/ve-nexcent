@@ -1,6 +1,6 @@
-import image_18 from "../images/image_18.png";
-import image_19 from "../images/image_19.png";
-import image_20 from "../images/image_20.png";
+import image_18 from "../assets/images/image_18.png";
+import image_19 from "../assets/images/image_19.png";
+import image_20 from "../assets/images/image_20.png";
 
 const caringMarketingConfig = [
   {
