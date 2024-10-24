@@ -134,3 +134,10 @@ ul {
   top: 8px;
   right: 16px;
 }
+
+.overflow-scroll {
+  overflow: auto !important;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
