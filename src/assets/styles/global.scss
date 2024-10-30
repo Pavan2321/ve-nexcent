@@ -81,6 +81,15 @@ ul {
   }
 }
 
+.carousel-indicators {
+  button {
+    height: 8px !important;
+    width: 8px !important;
+    background-color: var(--ve-shade-1) !important;
+    border-radius: 50%;
+  }
+}
+
 // Caring Marketing Image Container
 .caringMarketingImageContainer {
   position: relative;

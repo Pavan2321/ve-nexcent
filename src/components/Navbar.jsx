@@ -3,7 +3,7 @@ import logo from "../assets/images/Logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-silver">
+    <nav className="navbar navbar-expand-lg navbar-light bg-silver sticky-top">
       <div className="container">
         <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" height="24" />
